@@ -4,11 +4,11 @@ import { Link, useLocation } from "react-router-dom";
 
 const demoUser = {
   avatar: "🧑‍💻",
-  name: "Nuri Hoca",
-  email: "nuri.hoca@example.com",
+  name: "Seymur Mustafayev",
+  email: "seymur@example.com",
   status: "Active",
   role: "Frontend Developer",
-  joined: "2023-01-15"
+  joined: "2025-03-15"
 };
 
 const Profile = ({ onLogout }) => {
