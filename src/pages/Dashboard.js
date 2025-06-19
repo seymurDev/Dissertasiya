@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 const tasks = [
   {
     title: "Easy Tasks",
-    date: "22 November 2023",
+    date: "1 March 2025",
     progress: 40,
     total: 100,
     color: "#1976d2",
@@ -15,7 +15,7 @@ const tasks = [
     btnBg: "#1565c0",
     icon: "📝",
     description: "Practice basic concepts and warm up your skills. Perfect for beginners and daily practice.",
-    deadline: "2023-11-30",
+    deadline: "2025-12-30",
     status: "in-progress",
     steps: [
       "Read the instructions",
@@ -35,12 +35,12 @@ const tasks = [
       { id: 2, text: "Select the even number:", type: "select", options: ["3", "5", "8", "9"], answer: "8" }
     ],
     comments: [
-      { user: "Nuri Hoca", text: "Great for warm-up!", date: "2024-06-20", avatar: "🧑‍🏫" }
+      { user: "Sarkhan Rahimli", text: "Great for warm-up!", date: "2025-03-20", avatar: "🧑‍🏫" }
     ]
   },
   {
     title: "Medium Tasks",
-    date: "20 November 2023",
+    date: "2 March 2025",
     progress: 0,
     total: 100,
     color: "#a259e6",
@@ -50,7 +50,7 @@ const tasks = [
     btnBg: "#a259e6",
     icon: "📚",
     description: "Algorithmic puzzles and real-world scenarios. Test your speed and logic!",
-    deadline: "2023-12-10",
+    deadline: "2025-12-30",
     status: "not-started",
     steps: [
       "Read the problem statement",
@@ -70,7 +70,7 @@ const tasks = [
   },
   {
     title: "Hard Tasks",
-    date: "19 November 2023",
+    date: "19 March 2025",
     progress: 0,
     total: 100,
     color: "#ffe082",
@@ -80,7 +80,7 @@ const tasks = [
     btnBg: "#ffe082",
     icon: "💡",
     description: "Complex projects and multi-step problems. Compete on the leaderboard!",
-    deadline: "2023-12-20",
+    deadline: "2025-12-30",
     status: "not-started",
     steps: [
       "Understand the requirements",
@@ -110,7 +110,7 @@ const tasks = [
     btnBg: "#ffb3b3",
     icon: "👨‍💻",
     description: "Project-based assignments and feedback from mentors. Portfolio-ready results!",
-    deadline: "2023-12-31",
+    deadline: "2025-12-31",
     status: "not-started",
     steps: [
       "Read the project brief",
